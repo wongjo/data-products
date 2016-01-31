@@ -1,0 +1,26 @@
+A binomial random variable results from the outcome of a success or failure of a trial, such as flipping a coin. 
+
+This random simulator will generate a binomially distributed outcome with the following selectable parameters:
+1 to 5001 trials,
+1 to 5001 observations per trial, 
+with a probability of 0 to 1 for each observation (a coin is a probabilty of 0.5).
+
+a random number seed may be chosen from 1 to 10, for replicatable results from the system random generator.
+
+The Summary Tab displays Minimum, Maximum, and Quartiles of the successful observations of the trials.
+The Structure Tab displays the data structure of the trials.
+The Data Tab displays the data of the successful observations of the trials.
+The Plot Tab displays a histogram of the data of the successful observations of the trials.
+
+Selectable Plot options are:
+Maximum number of histogram bins (1 to 200)
+Bar color (White, Blue, Green, Yellow, Orange, Red, or Black)
+Display normal curve overlay (Yes or No)
+Line color of the normal curve (White, Blue, Green, Yellow, Orange, Red, or Black)
+
+The ui.R Tab displays the ui.R source file.
+The server.R Tab displays the server.R source file.
+
+
+
+
